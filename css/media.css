@@ -1,0 +1,9 @@
+@media (max-width: 1024px){
+    .preim .slide img{
+        width: 500px;
+    }
+    .footer .container{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+}

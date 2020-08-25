@@ -47,8 +47,7 @@ body{
     padding-top: 70px;
     margin-bottom: 40px;
 }
-.preim .blockPreim button,
-.contacts .contInfo button{
+.preim .blockPreim button{
     width: 240px;
     height: 50px;
     font-weight: 600;
@@ -189,23 +188,41 @@ body{
     flex-direction: row;
     align-items: center;
 }
+.contacts .map{
+    position: absolute;
+    width: 100%;
+}
 .contacts .contInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 315px;
     height: 310px;
     background-color: #fff;
     margin-top: 60px;
     margin-bottom: 60px;
-    padding: 40px;
-    
+    padding: 30px;
+    position: relative;
 }
 .contacts .contInfo span{
     font-size: 18px;
     font-weight: bold;
+    margin-top: 40px;
 }
 .contInfo p{
     margin-top: 40px;
 }
-.contacts .map{
+.contacts .contInfo button{
+    width: 240px;
+    height: 50px;
+    font-weight: 600;
+    border: 0;
+    color: rgb(238, 238,238);
+    background-color: rgb(251, 85, 89);
+    margin-top: 40px;
+}
+.contacts .img_map{
+    position: relative; 
     margin-left: 360px;
 }
 .footer{
@@ -217,6 +234,7 @@ body{
     margin-bottom: 80px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 80%;
 }
 .footer .networks ul{
